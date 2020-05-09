@@ -18,6 +18,10 @@ int main()
         S = sqrt(p*(p-a)*(p-b)*(p-c));
         printf("%d, %d, %d la 3 canh cua 1 tam giac.\nChu vi = %0.0f\nDien tich = %0.1f", a, b, c, C, S);
     }
+    else
+    {
+    	printf("%d, %d, %d khong phai 3 canh cua 1 tam giac.")
+	}
      
     return 0;
 }
