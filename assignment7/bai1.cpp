@@ -37,7 +37,7 @@ int main()
             }
         }
     }
-    printf("average duong cheo 1: %d\naverage duong cheo 2: %d\naverage ca ma tran: %d",average/count,average1/count1,(average+average1)/2);
+    printf("average duong cheo 1: %d\naverage duong cheo 2: %d\naverage ca ma tran: %d",average/count,average1/count1,(average+average1)/(count+count1));
     
     return 0;
 }
