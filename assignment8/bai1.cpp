@@ -22,16 +22,16 @@ int main()
         {
             count++;
             sum+= arr[i];
-        }// kien tra xem co phai la so am dau tien thi moi gan gia tri
-        if (sum > sum1)
+        }
+        if (sum > sum1)// update tong
         {
             sum1 = sum;
         }
-        if (count > count1)
+        if (count > count1)// update bien dem
         {
             count1 = count;
         }
-        if(arr[i] < 0){
+        if(arr[i] < 0){//reset tong va dem khi gap so am
             sum = 0;
             count = 0;
         }
